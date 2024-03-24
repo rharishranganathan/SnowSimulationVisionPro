@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Snow1
 //
-//  Created by Isagi Yoichi on 24/03/24.
+//  Created by Harish Ranganathan on 24/03/24.
 //
 
 import SwiftUI
@@ -22,7 +22,7 @@ struct ContentView: View {
             Model3D(named: "Scene", bundle: realityKitContentBundle)
                 .padding(.bottom, 50)
 
-            Text("Hello, world!")
+            Text("Make it SNOW")
 
             Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
                 .toggleStyle(.button)
